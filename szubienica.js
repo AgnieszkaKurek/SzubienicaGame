@@ -1,7 +1,11 @@
 ﻿var haslo = "-----------------------------------";
 var random = Math.floor((Math.random() * 20) + 1);
-switch (random) {
-    var haslo1 = new Array(20);
+switch (random) 
+
+function ();
+    {
+
+ var haslo1 = new Array(20);
     haslo1[1] = "Bez pracy nie ma kołaczy"; break;
     haslo1[2]= "Bogatemu to i byk się ocieli"; break;
     haslo1[3] = "Co dwie głowy to nie jedna"; break;
@@ -22,6 +26,8 @@ switch (random) {
     haslo1[18] = "Jak kamień w wodę"; break;
     haslo1[19] = "Jaki ojciec, taki syn"; break;
     haslo1[20] = "Jak trwoga to do boga"; break;
+
+
     default: haslo = "";
 
 }

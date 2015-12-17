@@ -1,27 +1,27 @@
 ﻿var haslo = "-----------------------------------";
 var random = Math.floor((Math.random() * 20) + 1);
 switch (random) {
-
-    case 1: haslo = "Bez pracy nie ma kołaczy"; break;
-    case 2: haslo = "Bogatemu to i byk się ocieli"; break;
-    case 3: haslo = "Co dwie głowy to nie jedna"; break;
-    case 4: haslo = "Co nie siłą to rozumem"; break;
-    case 5: haslo = "Co za dużo to nie zdrowo"; break;
-    case 6: haslo = "Co zaszkodziło to nauczyło"; break;
-    case 7: haslo = "Czyja rola tego wola"; break;
-    case 8: haslo = "Czuć się jak ryba w wodzie"; break;
-    case 9: haslo = "Dla chcącego nic trudnego"; break;
-    case 10: haslo = "Dobry zwyczaj nie pożyczaj"; break;
-    case 11: haslo = "Drzewa umierają stojąc"; break;
-    case 12: haslo = "Dziecii i ryby głosu nie mają"; break;
-    case 13: haslo = "I kwaśne jabłko robak toczy"; break;
-    case 14: haslo = "Im dalej w las tym więcej dzrew"; break;
-    case 15: haslo = "Idzie luty podkuj buty"; break;
-    case 16: haslo = "Jak cię widzą tak cię piszą"; break;
-    case 17: haslo = "Jak krew w piach"; break;
-    case 18: haslo = "Jak kamień w wodę"; break;
-    case 19: haslo = "Jaki ojciec, taki syn"; break;
-    case 20: haslo = "Jak trwoga to do boga"; break;
+    var haslo1 = new Array(20);
+    haslo1[1] = "Bez pracy nie ma kołaczy"; break;
+    haslo1[2]= "Bogatemu to i byk się ocieli"; break;
+    haslo1[3] = "Co dwie głowy to nie jedna"; break;
+    haslo1[4]= "Co nie siłą to rozumem"; break;
+    haslo1[5] = "Co za dużo to nie zdrowo"; break;
+    haslo1[6]= "Co zaszkodziło to nauczyło"; break;
+    haslo1[7] = "Czyja rola tego wola"; break;
+    haslo1[8]= "Czuć się jak ryba w wodzie"; break;
+    haslo1[9] = "Dla chcącego nic trudnego"; break;
+    haslo1[10]= "Dobry zwyczaj nie pożyczaj"; break;
+    haslo1[11] = "Drzewa umierają stojąc"; break;
+    haslo1[12]= "Dziecii i ryby głosu nie mają"; break;
+    haslo1[13] = "I kwaśne jabłko robak toczy"; break;
+    haslo1[14]= "Im dalej w las tym więcej dzrew"; break;
+    haslo1[15] = "Idzie luty podkuj buty"; break;
+    haslo1[16]= "Jak cię widzą tak cię piszą"; break;
+    haslo1[17] = "Jak krew w piach"; break;
+    haslo1[18] = "Jak kamień w wodę"; break;
+    haslo1[19] = "Jaki ojciec, taki syn"; break;
+    haslo1[20] = "Jak trwoga to do boga"; break;
     default: haslo = "";
 
 }

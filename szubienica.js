@@ -1,6 +1,6 @@
 ﻿
-
-var password =  [
+var password = proverbs[0];
+var proverbs =  [
 "Bez pracy nie ma kołaczy"; 
 "Bogatemu to i byk się ocieli";
 "Co dwie głowy to nie jedna";
@@ -29,6 +29,7 @@ password = password.toUpperCase();
 var length = password.length;
 
 var password1="";
+
 
 var how_many_mistakes = 0;
 var yes = new Audio("yes.wav");

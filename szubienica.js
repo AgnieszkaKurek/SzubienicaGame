@@ -1,6 +1,7 @@
 ﻿var haslo = "-----------------------------------";
 var random = Math.floor((Math.random() * 20) + 1);
 switch (random) {
+
     case 1: haslo = "Bez pracy nie ma kołaczy"; break;
     case 2: haslo = "Bogatemu to i byk się ocieli"; break;
     case 3: haslo = "Co dwie głowy to nie jedna"; break;
@@ -18,10 +19,10 @@ switch (random) {
     case 15: haslo = "Idzie luty podkuj buty"; break;
     case 16: haslo = "Jak cię widzą tak cię piszą"; break;
     case 17: haslo = "Jak krew w piach"; break;
-    case 18: haslo = "Jak kamień w wodę "; break;
+    case 18: haslo = "Jak kamień w wodę"; break;
     case 19: haslo = "Jaki ojciec, taki syn"; break;
     case 20: haslo = "Jak trwoga to do boga"; break;
-        default:haslo="", break;  
+    default: haslo = "";
 
 }
 

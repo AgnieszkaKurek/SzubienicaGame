@@ -1,15 +1,37 @@
-﻿var haslo = "Bez pracy nie ma kołaczy";
+﻿var haslo = "-----------------------------------";
+var random = Math.floor((Math.random() * 20) + 1);
+switch (random) {
+    case 1: haslo = "Bez pracy nie ma kołaczy"; break;
+    case 2: haslo = "Bogatemu to i byk się ocieli"; break;
+    case 3: haslo = "Co dwie głowy to nie jedna"; break;
+    case 4: haslo = "Co nie siłą to rozumem"; break;
+    case 5: haslo = "Co za dużo to nie zdrowo"; break;
+    case 6: haslo = "Co zaszkodziło to nauczyło"; break;
+    case 7: haslo = "Czyja rola tego wola"; break;
+    case 8: haslo = "Czuć się jak ryba w wodzie"; break;
+    case 9: haslo = "Dla chcącego nic trudnego"; break;
+    case 10: haslo = "Dobry zwyczaj nie pożyczaj"; break;
+    case 11: haslo = "Drzewa umierają stojąc"; break;
+    case 12: haslo = "Dziecii i ryby głosu nie mają"; break;
+    case 13: haslo = "I kwaśne jabłko robak toczy"; break;
+    case 14: haslo = "Im dalej w las tym więcej dzrew"; break;
+    case 15: haslo = "Idzie luty podkuj buty"; break;
+    case 16: haslo = "Jak cię widzą tak cię piszą"; break;
+    case 17: haslo = "Jak krew w piach"; break;
+    case 18: haslo = "Jak kamień w wodę "; break;
+    case 19: haslo = "Jaki ojciec, taki syn"; break;
+    case 20: haslo = "Jak trwoga to do boga"; break;
+        default:haslo="", break;  
+
+}
+
 haslo = haslo.toUpperCase();
 var dlugosc = haslo.length;
 var ile_skuch = 0;
 var yes = new Audio("yes.wav");
 var no = new Audio("no.wav");
-var haslo1 = "";
-for (i = 0; i < dlugosc; i++) {
-    if (haslo.charAt(i)== " ") haslo1 = haslo1 + " ";
-    else haslo1 = haslo1 + "-";
 
-}
+
 
 function wypisz_haslo()
 {

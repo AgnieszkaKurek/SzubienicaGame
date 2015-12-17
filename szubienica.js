@@ -1,27 +1,30 @@
-﻿var password= new Array (20);
-var random = Math.floor((Math.random() * 20) + 1);
-switch (random) 
+﻿
 
-password[0] = "Bez pracy nie ma kołaczy"; 
-password[1]= "Bogatemu to i byk się ocieli";
-password[2] = "Co dwie głowy to nie jedna";
-password[3]= "Co nie siłą to rozumem"; 
-password[4] = "Co za dużo to nie zdrowo";
-password[5]= "Co zaszkodziło to nauczyło";
-password[6] = "Czyja rola tego wola"; 
-password[7]= "Czuć się jak ryba w wodzie"; 
-password[8] = "Dla chcącego nic trudnego"; 
-password[9]= "Dobry zwyczaj nie pożyczaj"; 
-password[10] = "Drzewa umierają stojąc"; 
-password[11]= "Dziecii i ryby głosu nie mają"; 
-password[12] = "I kwaśne jabłko robak toczy"; 
-password[13]= "Im dalej w las tym więcej dzrew"; 
-password[14] = "Idzie luty podkuj buty"; 
-password[15]= "Jak cię widzą tak cię piszą";
-password[16] = "Jak krew w piach";
-password[17] = "Jak kamień w wodę";
-password[18] = "Jaki ojciec, taki syn"; 
-password[19] = "Jak trwoga to do boga"; 
+var password =  [
+"Bez pracy nie ma kołaczy"; 
+"Bogatemu to i byk się ocieli";
+"Co dwie głowy to nie jedna";
+"Co nie siłą to rozumem"; 
+"Co za dużo to nie zdrowo";
+"Co zaszkodziło to nauczyło";
+"Czyja rola tego wola"; 
+"Czuć się jak ryba w wodzie"; 
+"Dla chcącego nic trudnego"; 
+"Dobry zwyczaj nie pożyczaj"; 
+"Drzewa umierają stojąc"; 
+"Dziecii i ryby głosu nie mają"; 
+"I kwaśne jabłko robak toczy"; 
+"Im dalej w las tym więcej dzrew"; 
+"Idzie luty podkuj buty"; 
+"Jak cię widzą tak cię piszą";
+"Jak krew w piach";
+"Jak kamień w wodę";
+"Jaki ojciec, taki syn"; 
+"Jak trwoga to do boga"; 
+]
+document.getElementById().innerHTML = password[0];
+
+
 
 
 password = password.toUpperCase();
@@ -30,6 +33,9 @@ var how_many_mistakes = 0;
 var yes = new Audio("yes.wav");
 var no = new Audio("no.wav");
 
+
+var random = Math.floor((Math.random() * 20) + 1);
+switch (random) 
 
 
 function type_password()

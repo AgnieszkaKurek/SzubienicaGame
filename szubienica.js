@@ -2,26 +2,26 @@
 var random = Math.floor((Math.random() * 20) + 1);
 switch (random) 
 
-haslo[1] = "Bez pracy nie ma kołaczy"; break;
-haslo[2]= "Bogatemu to i byk się ocieli"; break;
-haslo[3] = "Co dwie głowy to nie jedna"; break;
-haslo[4]= "Co nie siłą to rozumem"; break;
-haslo[5] = "Co za dużo to nie zdrowo"; break;
-haslo[6]= "Co zaszkodziło to nauczyło"; break;
-haslo[7] = "Czyja rola tego wola"; break;
-haslo[8]= "Czuć się jak ryba w wodzie"; break;
-haslo[9] = "Dla chcącego nic trudnego"; break;
-haslo[10]= "Dobry zwyczaj nie pożyczaj"; break;
-haslo[11] = "Drzewa umierają stojąc"; break;
-haslo[12]= "Dziecii i ryby głosu nie mają"; break;
-haslo[13] = "I kwaśne jabłko robak toczy"; break;
-haslo[14]= "Im dalej w las tym więcej dzrew"; break;
-haslo[15] = "Idzie luty podkuj buty"; break;
-haslo[16]= "Jak cię widzą tak cię piszą"; break;
-haslo[17] = "Jak krew w piach"; break;
-haslo[18] = "Jak kamień w wodę"; break;
-haslo[19] = "Jaki ojciec, taki syn"; break;
-haslo[20] = "Jak trwoga to do boga"; break;
+haslo[0] = "Bez pracy nie ma kołaczy"; 
+haslo[1]= "Bogatemu to i byk się ocieli";
+haslo[2] = "Co dwie głowy to nie jedna";
+haslo[3]= "Co nie siłą to rozumem"; 
+haslo[4] = "Co za dużo to nie zdrowo";
+haslo[5]= "Co zaszkodziło to nauczyło";
+haslo[6] = "Czyja rola tego wola"; 
+haslo[7]= "Czuć się jak ryba w wodzie"; 
+haslo[8] = "Dla chcącego nic trudnego"; 
+haslo[9]= "Dobry zwyczaj nie pożyczaj"; 
+haslo[10] = "Drzewa umierają stojąc"; 
+haslo[11]= "Dziecii i ryby głosu nie mają"; 
+haslo[12] = "I kwaśne jabłko robak toczy"; 
+haslo[13]= "Im dalej w las tym więcej dzrew"; 
+haslo[14] = "Idzie luty podkuj buty"; 
+haslo[15]= "Jak cię widzą tak cię piszą";
+haslo[16] = "Jak krew w piach";
+haslo[17] = "Jak kamień w wodę";
+haslo[18] = "Jaki ojciec, taki syn"; 
+haslo[19] = "Jak trwoga to do boga"; 
 
 
 haslo = haslo.toUpperCase();

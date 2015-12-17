@@ -22,20 +22,20 @@ var password =  [
 "Jaki ojciec, taki syn"; 
 "Jak trwoga to do boga"; 
 ]
-document.getElementById().innerHTML = password[0];
-
-
-
+document.getElementById().innerHTML = password[];
+var random = Math.floor (Math.random() * 20)
 
 password = password.toUpperCase();
 var length = password.length;
+
+var password1="";
+
 var how_many_mistakes = 0;
 var yes = new Audio("yes.wav");
 var no = new Audio("no.wav");
 
 
-var random = Math.floor((Math.random() * 20) + 1);
-switch (random) 
+
 
 
 function type_password()
